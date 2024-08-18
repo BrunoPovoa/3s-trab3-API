@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios com APIs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercícios com APIs</h1>
+
+    <section id="exercicio1">
+        <h2>Exercício 1: Consultas à BrasilAPI</h2>
+        <div>
+            <h3>Consulta 1</h3>
+            <p>Descrição da consulta 1.</p>
+            <div class="result" id="consulta1"></div>
+        </div>
+        <div>
+            <h3>Consulta 2</h3>
+            <p>Descrição da consulta 2.</p>
+            <div class="result" id="consulta2"></div>
+        </div>
+        <div>
+            <h3>Consulta via Formulário 1</h3>
+            <form id="form1">
+                <label for="input1">Digite um CEP para consulta:</label>
+                <input type="text" id="input1" name="input1">
+                <button type="submit">Consultar</button>
+            </form>
+            <div class="result" id="resultadoForm1"></div>
+        </div>
+        <div>
+            <h3>Consulta via Formulário 2</h3>
+            <form id="form2">
+                <label for="input2">Digite um CNPJ para consulta:</label>
+                <input type="text" id="input2" name="input2">
+                <button type="submit">Consultar</button>
+            </form>
+            <div class="result" id="resultadoForm2"></div>
+        </div>
+    </section>
+
+    <section id="exercicio2">
+        <h2>Exercício 2: Consultas a APIs Externas</h2>
+        <div>
+            <h3>Promisse.race</h3>
+            <button id="btnRace">Executar Promisse.race</button>
+            <div class="result" id="resultadoRace"></div>
+        </div>
+        <div>
+            <h3>Promisse.all</h3>
+            <button id="btnAll">Executar Promisse.all</button>
+            <div class="result" id="resultadoAll"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
